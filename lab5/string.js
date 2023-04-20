@@ -5,7 +5,7 @@ function setup() {
 
 
 
-const favoriteThings = ["TSpending time with family", "Lifting", "Playing Basketball", "Eating", "Playing video games"];
+const favoriteThings = ["Spending time with family", "Lifting", "Playing Basketball", "Eating", "Playing video games"];
 
 
 
