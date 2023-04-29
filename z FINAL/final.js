@@ -1,7 +1,7 @@
 let cards = [];
 let flippedCards = [];
 let matchedCards = [];
-let cardValues = ['ONE', 'ONE', 'TWO', 'TWO', 'MAN', 'MAN', 'MIT', 'MIT', 'NIT', 'NIT', 'FUR', 'FUR', 'GAS', 'GAS', 'HAG', 'HAG'];
+let cardValues = ['Ant', 'Ant', 'Bat', 'Bat', 'Cat', 'Cat', 'Dog', 'Dog', 'Emu', 'Emu', 'Fog', 'Fog', 'Gar', 'Gar', 'How', 'How'];
 
 function setup() {
   createCanvas(600, 600);
@@ -37,7 +37,7 @@ function draw() {
       fill(0);
       text(card.value, card.x + card.w / 2, card.y + card.h / 2);
     }
-  })
+  });
 }
 
 function mouseClicked() {
@@ -57,11 +57,10 @@ function mouseClicked() {
             flippedCards[0].flipped = false;
             flippedCards[1].flipped = false;
             flippedCards = [];
-          }, 2000)
+          }, 2000);
         }
       }
     }
-  })
+  });
 }
-
 
